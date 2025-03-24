@@ -1,28 +1,18 @@
-# README.md
-"""
-# News Analysis Application
+# 📰 News Analysis & Text-to-Speech App
 
-## Setup Instructions
+This is a **Flask-free** Gradio-based web application that fetches news articles about a company from **Bing News**, analyzes sentiment, and converts the summaries into speech.
 
-### Prerequisites
-Ensure you have Python installed (version 3.7 or later). Install dependencies using:
-```bash
-pip install -r requirements.txt
-```
+## 🚀 Features
+- 🔍 **Fetches Latest News** from Bing
+- 🧠 **Performs Sentiment Analysis** on news summaries
+- 🎙️ **Converts News to Speech (TTS)**
+- 🌐 **Deployable on Hugging Face Spaces**
 
-### Running the Application
-1. Start the Flask backend:
-```bash
-python app.py
-```
-2. Run the Gradio UI:
-```bash
-python app.py
-```
-3. Access the Gradio interface at `http://127.0.0.1:7860`
+---
 
-### API Endpoints
-- `GET /fetch_news?company=<company_name>` - Fetches news articles and sentiment analysis.
-- `POST /tts` - Converts text to speech.
+## 🛠️ Setup Instructions
 
-"""
+### **1️⃣ Clone the Repository**
+```sh
+git clone https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME
+cd YOUR_SPACE_NAME
