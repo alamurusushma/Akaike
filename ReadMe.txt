@@ -1,18 +1,16 @@
-# 📰 News Analysis & Text-to-Speech App
+# News Analysis and Text-to-Speech App
 
-This is a **Flask-free** Gradio-based web application that fetches news articles about a company from **Bing News**, analyzes sentiment, and converts the summaries into speech.
+This project fetches the latest news about a company from Bing News, analyzes the sentiment, extracts key topics, and converts the summary into speech (in Hindi). The app is built using **Gradio** for the UI, **BeautifulSoup** for web scraping, **TextBlob** for sentiment analysis, and **gTTS** for text-to-speech.
 
-## 🚀 Features
-- 🔍 **Fetches Latest News** from Bing
-- 🧠 **Performs Sentiment Analysis** on news summaries
-- 🎙️ **Converts News to Speech (TTS)**
-- 🌐 **Deployable on Hugging Face Spaces**
+## Features
+- Fetches news articles from Bing News based on a company name.
+- Extracts article summaries and performs sentiment analysis.
+- Identifies key topics from the article text.
+- Converts the summary to Hindi speech using gTTS.
+- Displays results in a simple Gradio UI.
 
----
-
-## 🛠️ Setup Instructions
-
-### **1️⃣ Clone the Repository**
-```sh
-git clone https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME
-cd YOUR_SPACE_NAME
+## Installation
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-repo/news-analysis-tts.git
+   cd news-analysis-tts
